@@ -88,6 +88,7 @@ public class SmsHandler implements MoSmsListener {
                         userMtSms.setMessage(userReply);
                     } else {
                         //return;//TODO:undo comment
+                        LOGGER.info("Some irrelevant data");
                         userMtSms.setMessage("Some irrelevant data("+message +")received " + deviceName);
                     }
                     LOGGER.info("Sending User alert message: " + userMtSms);

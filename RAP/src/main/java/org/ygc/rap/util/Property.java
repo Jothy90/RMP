@@ -7,7 +7,7 @@ import java.util.ResourceBundle;
  * Created by john on 10/30/14.
  */
 public class Property {
-    public static final String BUNDLE_NAME = "org.yarlithub.dia.dia";
+    public static final String BUNDLE_NAME = "org.ygc.rap.dia";
     private static ResourceBundle resourceBundle = ResourceBundle.getBundle(BUNDLE_NAME);
 
     /**
